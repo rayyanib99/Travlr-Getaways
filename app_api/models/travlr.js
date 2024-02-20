@@ -14,4 +14,4 @@ const tripSchema = new mongoose.Schema({
 });
 
 // TripSchema.path('_id');
-mongoose.model('trips', tripSchema);
+mongoose.model('Trip', tripSchema);
